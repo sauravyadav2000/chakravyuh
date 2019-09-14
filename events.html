@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>IMS Ghaziabad Sports Fest</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css\open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css\animate.css">
+    
+    <link rel="stylesheet" href="css\owl.carousel.min.css">
+    <link rel="stylesheet" href="css\owl.theme.default.min.css">
+    <link rel="stylesheet" href="css\magnific-popup.css">
+
+    <link type="text/css" rel="stylesheet" href="css\lightbox.css">
+    <link type="text/css" rel="stylesheet" href="css/flexslider.css">
+    
+
+    <link rel="stylesheet" href="css\aos.css">
+
+    <link rel="stylesheet" href="css\ionicons.min.css">
+
+    <link rel="stylesheet" href="css\bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css\jquery.timepicker.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrapcdnstrap/3.4.0/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="css\flaticon.css">
+    <link rel="stylesheet" href="css\icomoon.css">
+    <link rel="stylesheet" href="css\style.css">
+    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js\lightbox.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.latest.js"></script>
+    <script type="text/javascript" src="js\jquery.min.js"></script>
+    
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slideshow').cycle({
+                fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+                pager: '#nav'
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        // Can also be used with $(document).ready()
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                slideshow: true,
+                animation: "slide"
+            });
+        });
+
+    </script>
+    <style type="text/css">
+        .loading-image
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 10;
+        }
+        
+        .loader
+        {
+            position: fixed;
+            z-index: 999;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 123, 170,0.6);
+            filter: alpha(opacity=60);
+            opacity: 0.6;
+            -moz-opacity: 0.8;
+            display: none;
+        }
+    </style>
+  </head>
+  <body>
+
+	 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+<a class="navbar-brand" href="index.html"><img src="images\logo.jpg" class="img-responsive" style="height: 90px;"><!--<i class="flaticon-helmet"></i>--><span>Chakravyuh '19</span></a>	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="index.html" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+	          <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+	          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <!-- <li class="nav-item cta"><a class="nav-link" href="#">Register</a></li> -->
+
+	        </ul>
+	      </div>
+	    </div>	  </nav>
+    <!-- END nav -->
+    
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/tj/GLS_0143_min.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate pb-5 text-center">
+            <h1 class="mb-3 bread">Events</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <style type="text/css">
+
+
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #000000;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #000000 40%, #ffffff 100%)
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+</style>
+<body>
+
+<div class="main">
+
+ <!--cards -->
+
+<div class="main">
+  <!-- <h1>Responsive Card Grid Layout</h1> -->
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://www.cricket.com.au/~/-/media/News/2019/06/19MaliOutfor6.ashx?w=1600" style="height: 250px;"></div>
+        <div class="card_content">
+          <h2 class="card_title" style="font-size: 30px">Cricket</h2>
+          <!-- <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p> --> 
+          <button> <a href="https://forms.gle/X9siMQcb1f6ARp7h6">Register Here</a></button>
+                <!-- Trigger the modal with a button -->
+            <button type="button"  style="" data-toggle="modal" data-target="#myModal">Rules And Regulations</button>
+
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- <h4 class="modal-title">Modal Header</h4> -->
+                  </div>
+                  <div class="modal-body">
+                    <h1>Rules And Regulations</h1>
+                    <p>
+                      1.) It will be a knockout tournament.<br>
+                      2.)Team should be a squad of 15 players.<br>
+                      3.)No player of eliminated team can play from
+other team which is alive in the tournament.<br>
+                      4.)Any act of Indiscipline will lead to
+disqualification of the team<br>
+                      5.)All teams must ‘REPORT’ 30 min. before the
+match time.<br>
+                      6.)Committee’s decision will be considered final
+decision.<br>
+                      7.)All players must wear standard kit<br>
+                      8.)Each player must carry valid college ID and
+Adhaar Card<br> 
+                      9.)For Registration purpose contact :<br>
+                      Abhishek Shahi:-9540957194<br>
+                      Nitigya Malhotra:-9871343607<br>
+                      Aman Rai:-7860951076
+
+                      
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://media.dhakatribune.com/uploads/2017/11/2-103.jpg" style="height: 250px;"></div>
+        <div class="card_content">
+          <h2 class="card_title" style="font-size: 30px;">Volleyball</h2>
+          <!-- <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p> -->
+          <button> <a href="https://forms.gle/FqEXZBbfx5mCRvgk8">Register Here</a></button>
+          <!-- Trigger the modal with a button -->
+            <button type="button"  style="" data-toggle="modal" data-target="#MyModal">Rules And Regulations</button>
+
+            <!-- Modal -->
+            <div id="MyModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- <h4 class="modal-title">Modal Header</h4> -->
+                  </div>
+                  <div class="modal-body">
+                    <h1>Rules And Regulations</h1>
+                    <p>1.) It will be a knockout tournament.<br>
+                      2.)Losing team players will not be allowed to
+play from any other team<br>
+                      3.)Only semifinals and finals will be of 5 sets ,
+rest all matches will be of 3 sets<br>
+                      4.)Only semifinals and finals will be of 5 sets ,
+rest all matches will be of 3 sets<br>
+                      5.)ATeam should report half an hour before the
+schedule time<br>
+                      6.)Committee decision will be final decision<br>
+                      7.)All players must wear standard kit<br>
+                      8.)Each player must carry valid college ID and
+Adhaar Card<br> 
+                      9.)For Registration purpose contact :<br>
+                      Naveen Yadav:-9205950240<br>
+                      Vibhu Dhiman:-9410080500<br>
+                      Shubham Rajput:-8840346364
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://media.dhakatribune.com/uploads/2019/08/basketball-betting061417-1566488026061.jpg" style="height: 250px;"></div>
+        <div class="card_content">
+          <h2 class="card_title" style="font-size: 30px;">Basketball</h2>
+          <!-- <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p> -->
+          <button> <a href="https://forms.gle/sAbjLnojNVBY8fVQ6">Register Here</a></button>
+          <!-- Trigger the modal with a button -->
+            <button type="button"  style="" data-toggle="modal" data-target="#myModal1">Rules And Regulations</button>
+
+            <!-- Modal -->
+            <div id="myModal1" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- <h4 class="modal-title">Modal Header</h4> -->
+                  </div>
+                  <div class="modal-body">
+                    <h1>Rules And Regulations</h1>
+                   <p>1.) It will be a knockout tournament.<br>
+                      2.)Max Players:10-12<br>
+                      3.)No Players can play for other team<br>
+                      4.)Players should maintain discipline<br>
+                      5.)Team should report 1 hour before the starting of the match<br>
+                      6.)The decision of the committee will be final<br>
+                      7.)Valid college Id along with Aadhar is required for verification<br>
+                      8.)8-10 min quarters and 4 such quarters<br>
+                      9.)Rules according to FIBA<br>
+                      10.)For Registration purpose contact :<br>
+                      Vishal Kumar:-9643943554<br>
+                      Sarvesh Patel:-8115556697<br>
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://media.istockphoto.com/photos/view-of-soccer-ball-on-athletic-field-in-stadium-arena-picture-id637298374?k=6&m=637298374&s=612x612&w=0&h=vyzc573M0dcP7MJET4JRSseEQ5ef_emaoxOs2fCPWcI=" style="height: 280px;"></div>
+        <div class="card_content">
+          <h2 class="card_title" style="font-size: 30px">Football</h2>
+          <!-- <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p> -->
+          <button> <a href="https://forms.gle/LPLwC8tKwhykcHwA9">Register Here</a></button>
+          <!-- Trigger the modal with a button -->
+            <button type="button"  style="" data-toggle="modal" data-target="#myModal2">Rules And Regulations</button>
+
+            <!-- Modal -->
+            <div id="myModal2" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- <h4 class="modal-title">Modal Header</h4> -->
+                  </div>
+                  <div class="modal-body">
+                    <h1>Rules And Regulations</h1>
+                    <p>1.) It will be a knockout tournament.<br>
+                      2.)Max Players:12<br>
+                      3.)No Players can play for other team<br>
+                      4.)Players should maintain discipline<br>
+                      5.)Team should report 1 hour before the starting of the match<br>
+                      6.)The decision of the committee will be final<br>
+                      7.)Valid college Id along with Aadhar is required for verification<br>
+                      8.)Each team will play with 9 players<br>
+                      9.)Off side rule is included<br>
+                      10.)All the other rules will be same as in FIFA<br>
+                      11.)For Registration purpose contact :<br>
+                      Aditya Singh:-09643661114<br>
+                      Vikrant Yadav:08929068360<br>
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/View_Of_Side_Stand_Of_Guru_Gobind_Singh_Stadium.jpg/1200px-View_Of_Side_Stand_Of_Guru_Gobind_Singh_Stadium.jpg" style="height: 280px;"></div>
+        <div class="card_content">
+          <h2 class="card_title" style="font-size: 30px">Kabaddi</h2>
+          <!-- <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p> -->
+          <button> <a href="https://forms.gle/91ppEBxppg5CiMcPA">Register Here</a></button>
+
+          <!-- Trigger the modal with a button -->
+            <button type="button"  style="" data-toggle="modal" data-target="#myModal3">Rules And Regulations</button>
+
+            <!-- Modal -->
+            <div id="myModal3" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- <h4 class="modal-title">Modal Header</h4> -->
+                  </div>
+                  <div class="modal-body">
+                    <h1>Rules And Regulations</h1>
+                    <p>1.) Weight limit is 85 kg(mandatory)<br>
+                      2.)It will be a knockout tournament. <br>
+                      3.)Each team shall consist of maximum 12 players and
+7 players shall take the ground.<br>
+                      4.)Duration of match will be dependent on the
+conditions and committee decision.<br>
+                      5.)Each player must carry their own valid college ID and
+adhaar(mandatory).<br>
+                      6.)Proper kit and gears are compulsory.<br>
+                      7.)If caught in any indiscipline activity, the team will be
+head to disqualification.<br>
+                      8.)All team need to report 1hrs. before the match
+timing.<br>
+                      
+                      9.)For Registration purpose contact :<br>
+                      Himanshu Sidhu:-8076824698, 9411646010 <br>
+                     
+                      </p>        
+                      </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://www.insidesport.co/wp-content/uploads/2019/05/Top-juniors-for-All-India-ranking-badminton-tournament.jpg" style="height: 280px;"></div>
+        <div class="card_content">
+          <h2 class="card_title" style="font-size: 30px">Badminton </h2>
+          <!-- <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p> -->
+          <button> <a href="https://forms.gle/wMNcm22Wcph6nXfa9">Register Here</a></button>
+
+           <button type="button"  style="" data-toggle="modal" data-target="#myModal10">Rules And Regulations</button>
+
+            <!-- Modal -->
+            <div id="myModal10" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- <h4 class="modal-title">Modal Header</h4> -->
+                  </div>
+                  <div class="modal-body">
+                    <h1>Rules And Regulations</h1>
+                    <p>1.) There will be a ‘Team Event’.<br>
+                      2.)Team consist of maximum 5 players.<br>
+                      3.)3 singles and 2 doubles of each team.<br>
+                      4.)Each match will be of 15 points and 3 set till
+the quarters and then match will be of 21
+points (Each Set).<br>
+                      5.)Rafree’s decision will final and if team
+argues the team will disqualified.<br>
+                      6.)Each player must carry valid college ID and
+(adhaar is must).<br>
+                      8.)Proper kit and shoes are compulsory.<br>
+                      9.)Team should ‘REPORT’ 1 hrs. earlier before
+the match.<br>
+           
+                      10.)For Registration purpose contact :<br>
+                      Ankit Pandey:-9151637568<br>
+                      Adarsh Babu Varshney:-7017973527 ,8006195135 <br>
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1444819385000/photosp/7b55f185-130e-479a-b24c-16cefe533bec/stock-photo-running-track-lane-stadium-lanes-perspective-high-school-trackandfield-runninglife-7b55f185-130e-479a-b24c-16cefe533bec.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title" style="font-size: 30px">Athletics</h2>
+          <!-- <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p> -->
+          <button> <a href="https://forms.gle/viea7RRiah9i3se68">Register</a></button>
+          <!-- Trigger the modal with a button -->
+            <button type="button"  style="" data-toggle="modal" data-target="#myModal5">Rules And Regulations</button>
+
+            <!-- Modal -->
+            <div id="myModal5" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- <h4 class="modal-title">Modal Header</h4> -->
+                  </div>
+                  <div class="modal-body">
+                    <h1>Rules And Regulations</h1>
+                    <p>1.) All matches will be Knockout<br>
+                      2.)No player can play for other team<br>
+                      3.)Teams should report 1 hour before the starting of the match<br>
+                      4.)The decision of the committee will be final <br>
+                      5.)Proper kit is cumpolsory<br>
+                      6.)Valid college Id along with Aadhar Is required for
+verification<br>
+                      
+                      <h1>Tug Of War</h1><br>
+                      1.)3 round matches will be held ,30 seconds each<br>
+                      2.)8 players will play , i.e 7 will play and 1 substitute<br>
+                      <h1>For Boys</h1>
+                      1.)Touching of the body parts to the ground above
+knee is not allowed(If any player on any side does
+so ,the round will be given to other)<br>
+                      <h1>For Girls</h1><br>
+                      1.)Touching of the body part to the ground above
+knee is allowed<br>
+<h1>Shot Put</h1>
+                    1.)3 rounds will be held<br>
+                    2.)All shot put will be applied<br>
+                    <h1>100 meters</h1><br>
+                    1.)Shoes are compulsory<br>
+                    2.)1 st ,2 nd ,3 rd will be awarded<br>
+                    <h1>Powerlifting</h1><br>
+                    1.)2 rounds will be held<br>
+                    2.)Category according to weight:
+                    40-50<br>
+51-60<br>
+61-70<br>
+71-80<br>
+81-90<br>
+91-100<br>
+100 above<br>
+3.)Only Bench Press will be held<br>
+
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://cdn1.alphr.com/sites/alphr/files/styles/og-image/public/2018/12/deepmind_chess.jpg?itok=RWebLLmc" style="height: 275px;"></div>
+        <div class="card_content">
+          <h2 class="card_title" style="font-size: 30px">Chess</h2>
+          <!-- <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>/ -->
+          <button> <a href="https://forms.gle/y8sF2jzZ9VUPsg2P8">Register</a></button>
+          <!-- Trigger the modal with a button -->
+            <button type="button"  style="" data-toggle="modal" data-target="#myModal6">Rules And Regulations</button>
+
+            <!-- Modal -->
+            <div id="myModal6" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- <h4 class="modal-title">Modal Header</h4> -->
+                  </div>
+                  <div class="modal-body">
+                    <h1>Rules And Regulations</h1>
+                    <p>1.) All matches will be Knockout<br>
+                      2.)Matches will be single<br>
+                      3.)Players should maintain discipline<br>
+                      4.)Teams should report 1 hour before the starting of the
+match<br>
+                      5.)Teams should report 1 hour before the starting of the
+match<br>
+                      6.)Valid college Id along with Aadhar Card Is required for
+verification<br>
+                      
+                      7.)For Registration purpose contact :<br>
+                      Shubham Kumar:-9058457350<br>
+                      
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg1bYjLJtbVmQywqfsVLV_ajZeJ6f1FiZcjrsUntUwwXUeAucW" style="height: 275px;"></div>
+        <div class="card_content">
+          <h2 class="card_title" style="font-size: 30px">Carrom</h2>
+          <!-- <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p> -->
+          <button> <a href="https://forms.gle/PgLgiciRCsnXWCQG8">Register Here</a></button>
+          <!-- Trigger the modal with a button -->
+            <!-- <button type="button"  style="" data-toggle="modal" data-target="#myModal7">Rules And Regulations</button> -->
+
+            <!-- Modal -->
+            <div id="myModal7" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- <h4 class="modal-title">Modal Header</h4> -->
+                  </div>
+                  <div class="modal-body">
+                    <h1>Rules And Regulations</h1>
+                    <p>1.) It will be a knockout tournament.<br>
+                      2.)Max Players:12<br>
+                      3.)No Players can play for other team<br>
+                      4.)Players should maintain discipline<br>
+                      5.)Team should report 1 hour before the starting of the match<br>
+                      6.)The decision of the committee will be final<br>
+                      7.)Valid college Id along with Aadhar is required for verification<br>
+                      8.)Each team will play with 9 players<br>
+                      9.)Off side rule is included<br>
+                      10.)All the other rules will be same as in FIFA<br>
+                      11.)For Registration purpose contact :<br>
+                      Aditya Singh:-09643661114<br>
+                      Vikrant Yadav:08929068360<br>
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image" ><img src="https://thelivenagpur.com/wp-content/uploads/2019/01/table-tennis.jpeg"></div>
+        <div class="card_content">
+          <h2 class="card_title" style="font-size: 30px">Table Tennis</h2>
+          <!-- <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout/</p> -->
+          <button> <a href="https://forms.gle/8Hq6osSv9zoXjxbA8">Register</a></button>
+          <!-- Trigger the modal with a button -->
+            <button type="button"  style="" data-toggle="modal" data-target="#myModal8">Rules And Regulations</button>
+
+            <!-- Modal -->
+            <div id="myModal8" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- <h4 class="modal-title">Modal Header</h4> -->
+                  </div>
+                  <div class="modal-body">
+                    <h1>Rules And Regulations</h1>
+                    <p>1.) It will be a knockout tournament.<br>
+                      2.)Matches will be single or doubles<br>
+                      3.)No Players can play for other team<br>
+                      4.)Players should maintain discipline<br>
+                      5.)Team should report 1 hour before the starting of the match<br>
+                      6.)The decision of the committee will be final<br>
+                      7.)Valid college Id along with Aadhar is required for verification<br>
+                      8.)The winner of the game is who take 11 points first<br>
+                      9.)There must be a gap of atleast 2 points<br>
+                      10.)If the match goes to dues it will be decided by the co-
+ordinators<br>
+                      11.)For Registration purpose contact :<br>
+                      Garvit Gupta:08899069771<br>
+                      Varchasva Balyan:09997152822<br>
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<!-- <h3 class="made_by">Made with ♡</h3> -->
+ 
+		
+		
+   
+
+     <!--<div class="legalaidclinic"  >
+            <div class="wrapper">-->
+        
+       
+			
+		
+		
+		
+
+    <!-- Registrations Coming Soon
+    <div class="container">
+            <div class="modal fade modal-center" id="registerModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+                            
+                        <div class="modal-body" style="color:red; text-align: center;">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <div class="reg-desktop">
+                                Registrations for Titanium Jural'19 has not yet started.<br>
+                                It will be available soon.
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         Registrations Coming Soon -->
+
+<!-- 
+   <footer class="ftco-footer ftco-section">
+       <div class="container px-md-5">
+        <div class="row mb-5">
+          <div class="col-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Contact Info</h2>
+             <div class="block-23 mb-3">
+                  <ul>
+                    <li><span class="icon icon-map-marker"></span><span class="text">NH-24, Adhyatmik Nagar, Near Dasna,Distt: Ghaziabad,<br><br>UP-201015.</span></li>
+                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">08859038300</span></a></li>
+                    <li><a href="#"><span class="icon icon-envelope pr-4"></span><span class="text">imssportclub@gmail.com</span></a></li>
+                  </ul>
+                </div>
+              <ul class="ftco-footer-social list-unstyled mt-5" style="margin-top:0 !important;">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="ftco-footer-widget mb-3 ml-md-4">
+              <h2 class="ftco-heading-2">Quick Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="about.html"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                
+                <li><a href="gallery.html"><span class="icon-long-arrow-right mr-2"></span>Gallery</a></li>
+                <li><a href="contact.html"><span class="icon-long-arrow-right mr-2"></span>Contact Us</a></li>
+                 <li><a href=""><span class="icon-long-arrow-right mr-2"></span>Register</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-3">
+            <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Contact US</h2>
+                <div class="block-23 mb-3">
+                  <ul>
+                    <li><span class="icon icon-map-marker"></span><span class="text">IMS Ghaziabad,<br>Dasna,<br>UP-380006</span></li>
+                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">079 2644 3434</span></a></li>
+                    <li><a href="#"><span class="icon icon-envelope pr-4"></span><span class="text">sauravyadav764@gmail.com</span></a></li>
+                  </ul>
+                </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-3">
+            <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Contact US</h2>
+                 
+          
+       <div class="footer-gallery mt-20">
+                                <a href="#"><img src="images\Media_Gallery\2019_20\athletics\6.jpg" alt=""></a>
+                                <a href="#"><img src="images\Media_Gallery\2019_20\athletics\3.jpg" alt=""></a>
+                                <a href="#"><img src="images\Media_Gallery\2019_20\badminton\2.jpg" alt=""></a>
+                                <a href="#"><img src="images\Media_Gallery\2019_20\badminton\4.jpg" alt=""></a>
+                                <a href="#"><img src="images\Media_Gallery\2019_20\basketball\4.jpg" alt=""></a>
+                                <a href="#"><img src="images\Media_Gallery\2019_20\carrom\2.jpg" alt=""></a>
+                            </div>
+            </div>
+          </div>
+        </div>
+   
+      </div>
+      <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <div class="copyright-text">
+                            <p>Copyright 2019 IMS SportFest - All Right Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <!-- <div class="copyright-text" style="text-align:right;">
+                            <p>Design By <a href="https://www.dngwebtech.com/" target="_blank">DNG WEB TECH.</a></p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>    </footer>
+    
+    
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"></circle><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"></circle></svg></div> 
+
+
+  <script src="js\jquery.min.js"></script>
+  <script src="js\jquery-migrate-3.0.1.min.js"></script>
+  <script src="js\popper.min.js"></script>
+  <script src="js\bootstrap.min.js"></script>
+  <script src="js\jquery.easing.1.3.js"></script>
+  <script src="js\jquery.waypoints.min.js"></script>
+  <script src="js\jquery.stellar.min.js"></script>
+  <script src="js\owl.carousel.min.js"></script>
+  <script src="js\jquery.magnific-popup.min.js"></script>
+  <script src="js\aos.js"></script>
+  <script src="js\jquery.animateNumber.min.js"></script>
+  <script src="js\bootstrap-datepicker.js"></script>
+  <script src="js\scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js\google-map.js"></script>
+  <script src="js\main.js"></script>
+  <script src="js\lightbox-plus-jquery.min.js"></script>
+    
+  </body>
+</html>
